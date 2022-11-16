@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ourServices>
+<service>
+<title>Bone and Joint Health</title>
+<dr>Dr Sandra<dr>
+<startedYear>2001</startedYear>
+<curRankCountry>1</curRankCountry>
+<curRankWW>23</curRankWW>
+<desc>You’re the star of our winning team that includes orthopaedic surgeons who specialize in comprehensive musculoskeletal care, spine surgeons who provide expert care for your back and neck, and rheumatologists and sports-medicine doctors who provide skilled non-surgical care for arthritis and injuries to bones and joints. Our therapists provide one-on-one care to help you recover fast from injury and achieve your optimal physical performance. And our Center for Advanced Joint Replacement is among the best programs in the nation for hip and knee replacement surgery.</desc>
+</service>
+<service>
+<title>Hip Replacement</service>
+<dr>Dr Christina<dr>
+<startedYear>2005</startedYear>
+<curRankCountry>3</curRankCountry>
+<curRankWW>56</curRankWW>
+<desc>ChristianaCare’s Center for Advanced Joint Replacement is among the most advanced, comprehensive programs for hip and knee replacement in the country. We perform more than 2,500 total hip and knee replacements annually, using the latest minimally invasive techniques, with clinical outcomes that are among the best in the nation.</desc>
+</service>
+<service>
+<title>Joint Replacement</title>
+<dr>Dr Chang<dr>
+<startedYear>2005</startedYear>
+<curRankCountry>3</curRankCountry>
+<curRankWW>56</curRankWW>
+<desc>ChristianaCare’s Center for Advanced Joint Replacement is among the most advanced, comprehensive programs for hip and knee replacement in the country. We perform more than 2,500 total hip and knee replacements annually, using the latest minimally invasive techniques, with clinical outcomes that are among the best in the nation</desc>
+</service>
+<service>
+<title>Knee Replacement</title>
+<dr>Dr Kanti<dr>
+<startedYear>2003</startedYear>
+<curRankCountry>3</curRankCountry>
+<curRankWW>43</curRankWW>
+<desc>ChristianaCare’s Center for Advanced Joint Replacement is among the most advanced, comprehensive programs for hip and knee replacement in the country. We perform more than 2,500 total hip and knee replacements annually, using the latest minimally invasive techniques, with clinical outcomes that are among the best in the nation.</desc>
+</service>
+<service>
+<title>Orthopaedics</title>
+<dr>Dr Shakti<dr>
+<startedYear>2001</startedYear>
+<curRankCountry>1</curRankCountry>
+<curRankWW>13</curRankWW>
+<desc>ChristianaCare’s Center for Advanced Joint Replacement is among the most advanced, comprehensive programs for hip and knee replacement in the country. We perform more than 2,500 total hip and knee replacements annually, using the latest minimally invasive techniques, with clinical outcomes that are among the best in the nation.</desc>
+</service>
+<service>
+<title>Podiatry</title>
+<dr>Dr Sandra<dr>
+<startedYear>2001</startedYear>
+<curRankCountry>1</curRankCountry>
+<curRankWW>33</curRankWW>
+<desc>ChristianaCare’s Center for Advanced Joint Replacement is among the most advanced, comprehensive programs for hip and knee replacement in the country. We perform more than 2,500 total hip and knee replacements annually, using the latest minimally invasive techniques, with clinical outcomes that are among the best in the nation.</desc>
+</service>
+<service>
+<title>Rheumatology</title>
+<dr>Dr Christina<dr>
+<startedYear>2001</startedYear>
+<curRankCountry>2</curRankCountry>
+<curRankWW>22</curRankWW>
+<desc>ChristianaCare’s Center for Advanced Joint Replacement is among the most advanced, comprehensive programs for hip and knee replacement in the country. We perform more than 2,500 total hip and knee replacements annually, using the latest minimally invasive techniques, with clinical outcomes that are among the best in the nation.</desc>
+</service>
+<service>
+<title>Sports Medicine</title>
+<dr>Dr Drake<dr>
+<startedYear>2010</startedYear>
+<curRankCountry>9</curRankCountry>
+<curRankWW>215</curRankWW>
+<desc>ChristianaCare’s Center for Advanced Joint Replacement is among the most advanced, comprehensive programs for hip and knee replacement in the country. We perform more than 2,500 total hip and knee replacements annually, using the latest minimally invasive techniques, with clinical outcomes that are among the best in the nation.</desc>
+</service>
+</ourServices>
