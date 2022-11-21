@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE ourServices [
+<!ELEMENT service (title,dr,startedYear,curRankCountry,curRankWW,desc)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT dr (#PCDATA)>
+<!ELEMENT startedYear (#PCDATA)>
+<!ELEMENT curRankCountry (#PCDATA)>
+<!ELEMENT curRankWW (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+]>
