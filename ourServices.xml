@@ -3,7 +3,7 @@
 <ourServices>
 <service>
 <title>Bone and Joint Health</title>
-<dr>Dr Sandra</dr>
+<dr>Dr.Sandra</dr>
 <startedYear>2001</startedYear>
 <curRankCountry>1</curRankCountry>
 <curRankWW>23</curRankWW>
@@ -11,7 +11,7 @@
 </service>
 <service>
 <title>Hip Replacement</title>
-<dr>Dr Christina</dr>
+<dr>Dr.Christina</dr>
 <startedYear>2005</startedYear>
 <curRankCountry>3</curRankCountry>
 <curRankWW>56</curRankWW>
@@ -19,7 +19,7 @@
 </service>
 <service>
 <title>Joint Replacement</title>
-<dr>Dr Chang</dr>
+<dr>Dr.Chang</dr>
 <startedYear>2005</startedYear>
 <curRankCountry>3</curRankCountry>
 <curRankWW>56</curRankWW>
@@ -27,7 +27,7 @@
 </service>
 <service>
 <title>Knee Replacement</title>
-<dr>Dr Kanti</dr>
+<dr>Dr.Kanti</dr>
 <startedYear>2003</startedYear>
 <curRankCountry>3</curRankCountry>
 <curRankWW>43</curRankWW>
@@ -35,7 +35,7 @@
 </service>
 <service>
 <title>Orthopaedics</title>
-<dr>Dr Shakti</dr>
+<dr>Dr.Shakti</dr>
 <startedYear>2001</startedYear>
 <curRankCountry>1</curRankCountry>
 <curRankWW>13</curRankWW>
@@ -43,7 +43,7 @@
 </service>
 <service>
 <title>Podiatry</title>
-<dr>Dr Sandra</dr>
+<dr>Dr.Sandra</dr>
 <startedYear>2001</startedYear>
 <curRankCountry>1</curRankCountry>
 <curRankWW>33</curRankWW>
@@ -51,7 +51,7 @@
 </service>
 <service>
 <title>Rheumatology</title>
-<dr>Dr Christina</dr>
+<dr>Dr.Christina</dr>
 <startedYear>2001</startedYear>
 <curRankCountry>2</curRankCountry>
 <curRankWW>22</curRankWW>
@@ -59,7 +59,7 @@
 </service>
 <service>
 <title>Sports Medicine</title>
-<dr>Dr Drake</dr>
+<dr>Dr.Drake</dr>
 <startedYear>2010</startedYear>
 <curRankCountry>9</curRankCountry>
 <curRankWW>215</curRankWW>
