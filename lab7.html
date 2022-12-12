@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <center><img id="img1" width="100" height="100" style="border-radius:50px"></center>
+    </div>
+    <div id="div1">
+        <fieldset>
+            <legend>Cookie Details</legend>
+            Name:<span id="name"></span><br>
+            Phone:<span id="phone"></span><br>
+            Email:<span id="mail"></span><br>
+            Age:<span id="age"></span><br>
+            <span id="sp1"></span>
+        </fieldset>
+        <fieldset>
+            <legend>Add Cookies</legend>
+            <label for="name1">Cookie Name</label>
+            <input type="text" id="name1">
+            <label for="val1">Cookie Value</label>
+            <input type="text" id="val1"> 
+            <button onclick="addCookie()">ADD</button>
+        </fieldset>
+        <fieldset>
+            <legend>Delete Cookies</legend>
+            <label for="name2">Cookie Name</label>
+            <input type="text" id="name2">
+            <button onclick="delCookie()">DELETE</button>
+        </fieldset>
+    </div>
+`
+</body>
+<script>
+
+checkCookie();
+	function setvalues()
+	{
+document.getElementById("name").innerHTML=getCookie("name");
+document.getElementById("phone").innerHTML=getCookie("phone");
+document.getElementById("mail").innerHTML=getCookie("email");
+document.getElementById("age").innerHTML=localStorage.getItem("age1");
+document.getElementById("img1").src=getCookie("images");
+document.getElementById("div1").style.backgroundColor=getCookie("color");
+document.getElementById("sp1").innerHTML=listCookies();
+	}
+    	
+function checkCookie() {
+  let username = getCookie("name");
+  if (username != "") {
+  	
+   setvalues();
+  } else {
+    alert("No Recent users data found");
+  }
+}
+
+function addCookie()
+{
+var name1=document.getElementById('name1').value;
+var val1=document.getElementById('val1').value;
+
+if(name1=="" || val1=="")
+{
+	alert("Values cannot be empty");
+}
+
+
+else if(name1=="name" || name1=="phone" || name1=="email" || name1=="color" || name1=="images")
+{
+	alert("Primary values cannot be modified");
+}
+else
+{
+	setCookie(name1,val1,2);
+	location.reload();
+}
+
+
+}
+
+function delCookie()
+{
+var name2=document.getElementById('name2').value;
+
+
+if(name2=="")
+{
+	alert("Name cannot be empty");
+}
+
+
+else if(name2=="name" || name2=="phone" || name2=="email" || name2=="color" || name2=="images")
+{
+	alert("Primary values cannot be deleted.");
+}
+else
+{
+	document.cookie = name2+"=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+	location.reload();
+}
+
+
+}
+
+function getCookie(cname) {
+  let name = cname + "=";
+  let decodedCookie = decodeURIComponent(document.cookie);
+  let ca = decodedCookie.split(';');
+  for(let i = 0; i <ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+
+function setCookie(cname, cvalue, exdays) {
+  const d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  let expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function listCookies() {
+    var theCookies = document.cookie.split(';');
+    var aString = '';
+    for (var i = 1 ; i <= theCookies.length; i++) {
+    	if(i<6)
+        {
+            continue;
+        }
+    	
+    		aString +=' ' + theCookies[i-1] + "<br><br>";
+    	
+        
+    }
+    return aString;
+    
+}
+
+
+</script>
+</html>
