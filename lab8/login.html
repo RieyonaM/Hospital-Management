@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="main.css" />
+   <link rel="stylesheet" href="lstyle.css">
+   <title>Login</title>
+   <script>
+    function check()
+    {var x=document.getElementById("name").value; 
+    var y=document.getElementById("pass").value;  
+    if (x=="admin")
+    {
+        window.location.href="index.html";
+    }
+    else{
+      return false;
+        window.location.href="D:\2 trimester\WBT\HTML\main.html";
+    }
+    return false;
+  }
+  </script>
+   </head>
+   <body>
+    <nav class="navbar">
+      <!-- LOGO -->
+      <div class="logo">Christiana Care</div>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+        <!-- NAVIGATION MENUS -->
+        <div class="menu">
+          <li><a href="D:\2 trimester\WBT\HTML\main.html">Home</a></li>
+        </div>
+      </ul>
+    </nav>
+    <div class="login-page">
+      <div class="form">
+        <div class="login">
+          <div class="login-header">
+            <h3>LOGIN</h3>
+            <p>Please enter your credentials to login.</p>
+          </div>
+        </div>
+        <form class="login-form" onsubmit="return check()">
+          <input type="text" placeholder="username" id="name"/>
+          <input type="password" placeholder="password" id="pass"/>
+          <button onclick="check()">login</button>
+          <p class="message">Not registered? <a href="D:\2 trimester\WBT\HTML\main.html">Create an account</a></p>
+        </form>
+      </div>

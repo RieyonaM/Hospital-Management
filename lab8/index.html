@@ -1,0 +1,68 @@
+<!doctype html>
+<html ng-app="myMod">
+<head>
+<meta charset="utf-8">
+<title>index</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css" />
+<script src="angular.js"></script>
+<script src="route.js"></script>
+<script src="module1.js"></script>
+</head>
+
+<body>		
+		  <div class="container">
+	
+			<div class="row">
+			
+				<div class="col-sm-12">
+				
+					<h1 class="jumbotron text-white text-center" style="background-color: teal;">Christiana Care</h1>
+				
+				</div>
+				
+			</div>
+				
+				<div class="row" style="margin-top: -30px;">
+				
+				<div class="col-sm-3">
+				
+					<div class="jumbotron text-white" style="background-color: teal;height:500px;">
+					<center>
+						<ul style="list-style: none; font-size:30px;">
+							<li><a href="#!doctor">Doctors</a></li>
+							<li><a href="#!patient">Patients</a></li>
+							<li><a href="#!service">Services</a></li>
+							<li><a href="#!gallery">Gallery</a></li>
+							<li><a href="main.html">SignOut</a></li>
+						
+						</ul>
+					</center>
+					</div>
+					
+				</div>
+					
+			<div class="col-sm-9">
+			
+				<div class="ng-view">
+				
+				
+				</div>
+				
+			</div>
+		
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-sm-12">
+			
+				
+			</div>
+		
+		</div>
+	
+	</div>
+	
+</body>
+</html>
